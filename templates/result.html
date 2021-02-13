@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content1 %}
+<link rel="stylesheet" href="static/main4.css">
+
+<div class="login">
+        <div class="login-screen">
+            <p>Достижимая: {{data[0]}}</p>
+            <p>Временные рамки: {{data[1]}}</p>
+            <p>Образование: {{data[2]}}</p>
+            <p>Однозначность: {{data[3]}}</p>
+            {% if l > 4 %}
+            <p>Атракторы: {{data[4:-1]}}</p>
+            {% else %}
+            <p>Атракторы: </p>
+            {% endif %}
+            <p>Уровень абстрактности: {{data[-1]}}</p>
+        </div>
+</div>
+{% endblock %}

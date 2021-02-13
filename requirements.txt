@@ -1,0 +1,10 @@
+Flask==1.1.2
+Flask-WTF==0.14.3
+Keras==2.2.4
+gensim==3.8.3
+numpy==1.18.5
+pymorphy2==0.8
+tensorflow==1.13.1
+WTForms==2.3.3
+pymorphy2-dicts==2.4.393442.3710985
+pyenchant==3.1.1
